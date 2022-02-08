@@ -14,5 +14,11 @@ body {
 }
 
 main {
-  margin-top: 100px;
+  margin-top: 3rem;
+}
+
+.card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
