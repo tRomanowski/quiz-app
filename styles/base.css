@@ -4,6 +4,21 @@
   margin: 0;
 }
 
+html {
+  background-color: black;
+}
+
 body {
   font-family: "Kavoon", cursive;
+  color: white;
+}
+
+main {
+  margin-top: 3rem;
+}
+
+.card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
