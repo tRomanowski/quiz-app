@@ -4,6 +4,15 @@
   margin: 0;
 }
 
+html {
+  background-color: black;
+}
+
 body {
   font-family: "Kavoon", cursive;
+  color: white;
+}
+
+main {
+  margin-top: 100px;
 }
