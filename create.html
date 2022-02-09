@@ -13,11 +13,21 @@
       </header>
       <main>
         <form class="question-creator" action="">
-            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <label for="mkquestion">Your Question:</label>
+            <textarea class="question-creator__qarea" name="mkquestion" id="mkquestion" cols="30" rows="10"></textarea>
+            <label for="mkanswer">Your Answer:</label>
+            <textarea class="question-creator__aarea" name="mkanswer" id="mkanswer" cols="30" rows="10"></textarea>
+            <label for="tag-selector"></label>
+            <select name="tag-selector" id="tag-selector">
+                <option value="tag">#tag1</option>
+                <option value="tag">#tag2</option>
+                <option value="tag">#tag3</option>
+                <option value="tag">#tag4</option>
+            </select>
         </form>
       </main>
       <footer class="footer">
-        <div class="footer__box">Home</div>
+        <div class="footer__box"><a href="./index.html">Home</a></div>
         <div class="footer__box"><a href="./bookmark.html">Bookmarks</a></div>
         <div class="footer__box footer__box--active">create</div>
         <div class="footer__box">profile</div>
