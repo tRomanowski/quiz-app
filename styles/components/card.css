@@ -6,6 +6,7 @@
   flex-direction: column;
   align-items: center;
   gap: 1rem;
+  position: relative;
 }
 
 .card__answer {
@@ -14,6 +15,7 @@
 
 .card__tags {
   display: flex;
+  flex-wrap: wrap;
   gap: 3rem;
   margin-top: 1rem;
 }

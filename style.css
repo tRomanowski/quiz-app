@@ -3,6 +3,8 @@
 
 @import "./styles/components/button.css";
 @import "./styles/components/card.css";
+@import "./styles/components/footer.css";
 @import "./styles/components/gradient-border.css";
 @import "./styles/components/header.css";
+@import "./styles/components/question-creator-form.css";
 @import "./styles/components/ribbon.css";

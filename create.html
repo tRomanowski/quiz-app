@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Question</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/37e199e85a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__title">Quiz-App</h1>
+    </header>
+    <main>
+      <form class="question-creator gradient-border" action="">
+        <label for="mkquestion">Your Question:</label>
+        <textarea
+          class="question-creator__qarea"
+          name="mkquestion"
+          id="mkquestion"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <label for="mkanswer">Your Answer:</label>
+        <textarea
+          class="question-creator__aarea"
+          name="mkanswer"
+          id="mkanswer"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <label for="tag-selector">Your Tags</label>
+        <input type="text" id="tag-selector" placeholder="tag1, tag2, ..." />
+        <button class="question-creator__button button">Submit</button>
+      </form>
+    </main>
+    <footer class="footer">
+      <div class="footer__box">
+        <a href="./index.html"><i class="fa-solid fa-house fa-2x"></i></a>
+      </div>
+      <div class="footer__box">
+        <a href="./bookmark.html"><i class="fa-solid fa-bookmark fa-2x"></i></a>
+      </div>
+      <div class="footer__box footer__box--active">
+        <i class="fa-solid fa-question fa-2x"></i>
+      </div>
+      <div class="footer__box">
+        <a href="./profile.html"><i class="fa-solid fa-id-badge fa-2x"></i></a>
+      </div>
+    </footer>
+  </body>
+</html>
