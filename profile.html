@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/37e199e85a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__title">Profile</h1>
+    </header>
+    <main>
+      <section class="profile-info">
+        <img
+          src="./images/foto-platzhalter.jpeg"
+          alt=""
+          width="120"
+          height="120"
+          class="profile-info__img"
+        />
+        <h2>John Doe</h2>
+        <p class="profile-info__text">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas sit
+          vero quia iste, nostrum architecto voluptate accusantium quos dolores
+          rem natus deserunt perferendis accusamus eius harum dolorem
+          voluptatibus illo quod.
+        </p>
+      </section>
+      <section class="profile-skills">
+        <h3>Your Skills</h3>
+        <ul class="card__tags">
+          <li>#tag1</li>
+          <li>#tag2</li>
+          <li>#tag3</li>
+          <li>#tag4</li>
+        </ul>
+      </section>
+      <label class="sr-only" for="logout">Logout:</label>
+      <button id="logout" class="button logout-button">Logout</button>
+    </main>
+    <nav class="footer">
+      <a href="./index.html" class="footer__box"
+        ><i class="fa-solid fa-house fa-2x"></i
+      ></a>
+
+      <a href="./bookmark.html" class="footer__box"
+        ><i class="fa-solid fa-bookmark fa-2x"></i
+      ></a>
+
+      <a href="./create.html" class="footer__box"
+        ><i class="fa-solid fa-question fa-2x"></i
+      ></a>
+
+      <div class="footer__box footer__box--active">
+        <i class="fa-solid fa-id-badge fa-2x"></i>
+      </div>
+    </nav>
+  </body>
+</html>

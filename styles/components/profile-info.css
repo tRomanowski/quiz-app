@@ -1,0 +1,17 @@
+.profile-info {
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 1rem;
+  justify-items: start;
+  align-items: center;
+}
+
+.profile-info__text {
+  grid-column-start: 1;
+  grid-column-end: span2;
+}
+
+.profile-info__img {
+  border-radius: 50%;
+}
