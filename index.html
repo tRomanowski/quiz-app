@@ -10,6 +10,7 @@
       src="https://kit.fontawesome.com/37e199e85a.js"
       crossorigin="anonymous"
     ></script>
+    <script defer src="app.js"></script>
   </head>
   <body>
     <header class="header">
@@ -18,7 +19,12 @@
     <main>
       <section class="card-list">
         <article class="card gradient-border">
-          <div class="ribbon"><i class="fa-solid fa-bookmark fa-2x"></i></div>
+          <label class="sr-only" for="ribbon1">bookmark this card</label>
+
+          <button id="ribbon1" class="ribbon no-button">
+            <i class="fa-solid fa-bookmark fa-2x"></i>
+          </button>
+
           <h2 class="card__title">Question</h2>
           <p class="card__question">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore
@@ -40,7 +46,11 @@
           </ul>
         </article>
         <article class="card gradient-border">
-          <div class="ribbon"><i class="fa-solid fa-bookmark fa-2x"></i></div>
+          <label class="sr-only" for="button2">bookmark this card </label>
+          <button id="button2" class="ribbon no-button">
+            <i class="fa-solid fa-bookmark fa-2x"></i>
+          </button>
+
           <h2 class="card__title">Question</h2>
           <p class="card__question">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore
@@ -62,7 +72,10 @@
           </ul>
         </article>
         <article class="card gradient-border">
-          <div class="ribbon"><i class="fa-solid fa-bookmark fa-2x"></i></div>
+          <label class="sr-only" for="button3">bookmark this card</label>
+          <button id="button3" class="ribbon no-button">
+            <i class="fa-solid fa-bookmark fa-2x"></i>
+          </button>
           <h2 class="card__title">Question</h2>
           <p class="card__question">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore
@@ -84,7 +97,11 @@
           </ul>
         </article>
         <article class="card gradient-border">
-          <div class="ribbon"><i class="fa-solid fa-bookmark fa-2x"></i></div>
+          <label class="sr-only" for="button4">bookmark this card</label>
+          <button id="button4" class="ribbon no-button">
+            <i class="fa-solid fa-bookmark fa-2x"></i>
+          </button>
+
           <h2 class="card__title">Question</h2>
           <p class="card__question">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore
@@ -107,19 +124,22 @@
         </article>
       </section>
     </main>
-    <footer class="footer">
+    <nav class="footer">
       <div class="footer__box footer__box--active">
         <i class="fa-solid fa-house fa-2x"></i>
       </div>
-      <div class="footer__box">
-        <a href="./bookmark.html"><i class="fa-solid fa-bookmark fa-2x"></i></a>
-      </div>
-      <div class="footer__box">
-        <a href="./create.html"><i class="fa-solid fa-question fa-2x"></i></a>
-      </div>
-      <div class="footer__box">
-        <a href="./profile.html"><i class="fa-solid fa-id-badge fa-2x"></i></a>
-      </div>
-    </footer>
+
+      <a href="./bookmark.html" class="footer__box"
+        ><i class="fa-solid fa-bookmark fa-2x"></i
+      ></a>
+
+      <a href="./create.html" class="footer__box"
+        ><i class="fa-solid fa-question fa-2x"></i
+      ></a>
+
+      <a href="./profile.html" class="footer__box"
+        ><i class="fa-solid fa-id-badge fa-2x"></i
+      ></a>
+    </nav>
   </body>
 </html>

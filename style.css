@@ -1,10 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Kavoon&display=swap");
-@import "./styles/base.css";
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&display=swap');
+@import './styles/base.css';
 
-@import "./styles/components/button.css";
-@import "./styles/components/card.css";
-@import "./styles/components/footer.css";
-@import "./styles/components/gradient-border.css";
-@import "./styles/components/header.css";
-@import "./styles/components/question-creator-form.css";
-@import "./styles/components/ribbon.css";
+@import './styles/components/button.css';
+@import './styles/components/card.css';
+@import './styles/components/footer.css';
+@import './styles/components/gradient-border.css';
+@import './styles/components/header.css';
+@import './styles/components/logout-button.css';
+@import './styles/components/no-button.css';
+@import './styles/components/profile-info.css';
+@import './styles/components/profile-skills.css';
+@import './styles/components/question-creator-form.css';
+@import './styles/components/ribbon.css';
+@import './styles/components/sr-only.css';
+@import './styles/utility.css';

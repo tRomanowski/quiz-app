@@ -4,13 +4,12 @@
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  width: 80%;
-  margin: auto;
+
   padding: 1rem;
 }
 
 .question-creator__qarea {
-  font-family: "Kavoon", cursive;
+  font-family: 'Kavoon', cursive;
   background-color: rgb(243, 240, 240);
   font-size: 18px;
   border-radius: 8px;
@@ -22,7 +21,7 @@
 }
 
 .question-creator__aarea {
-  font-family: "Kavoon", cursive;
+  font-family: 'Kavoon', cursive;
   background-color: rgb(243, 240, 240);
   font-size: 18px;
   border-radius: 8px;
