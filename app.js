@@ -13,3 +13,4 @@ ribbon.addEventListener('click', () => {
   ribbon.classList.toggle('ribbon--active');
 });
 const foo = 'bar';
+console.log(foo);
