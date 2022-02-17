@@ -1,2 +1,4 @@
-.logout-button {
+.logout-container {
+  display: flex;
+  justify-content: center;
 }
