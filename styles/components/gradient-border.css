@@ -5,7 +5,7 @@
   border-radius: var(--borderWidth);
 }
 .gradient-border:after {
-  content: "";
+  content: '';
   position: absolute;
   top: calc(-1 * var(--borderWidth));
   left: calc(-1 * var(--borderWidth));
