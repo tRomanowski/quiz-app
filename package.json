@@ -1,0 +1,22 @@
+{
+  "name": "quiz-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tRomanowski/quiz-app.git"
+  },
+  "author": "Tim Romanowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tRomanowski/quiz-app/issues"
+  },
+  "homepage": "https://github.com/tRomanowski/quiz-app#readme",
+  "dependencies": {
+    "prettier": "^2.5.1"
+  }
+}
