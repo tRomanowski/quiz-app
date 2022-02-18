@@ -1,24 +1,30 @@
 .card {
   padding: 1.5rem;
-
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
   position: relative;
-}
-
-.card__answer {
-  display: none;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .card__tags {
   display: flex;
-  flex-wrap: wrap;
-  gap: 3rem;
+  gap: 1rem;
   margin-top: 1rem;
+  overflow: auto;
+  max-width: 80%;
 }
 
 .card__tags li {
   list-style: none;
+  padding: 4px 8px;
+  border: 1px solid white;
+  border-radius: 15px;
+}
+
+.card__tags button {
+  width: 100%;
 }

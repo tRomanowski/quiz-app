@@ -13,15 +13,15 @@
     <script defer src="app.js"></script>
   </head>
   <body>
-    <header class="header">
-      <h1 class="header__title">Quiz-App</h1>
-    </header>
     <main>
+      <header class="header">
+        <h1 class="header__title">Quiz-App</h1>
+      </header>
       <section class="card-list">
         <article class="card gradient-border">
           <label class="sr-only" for="ribbon1">bookmark this card</label>
 
-          <button id="ribbon1" class="ribbon no-button">
+          <button id="ribbon1" class="ribbon no-button" data-js="ribbon">
             <i class="fa-solid fa-bookmark fa-2x"></i>
           </button>
 
@@ -31,8 +31,43 @@
             minima quam totam consectetur, optio cumque est in reiciendis iste
             quae quod aut hic magni atque dolorum illum maiores nisi repellat.
           </p>
-          <button class="card__button button">Show Answer</button>
-          <p class="card__answer">
+          <button class="card__button button" data-js="answer-button">
+            Show Answer
+          </button>
+          <p class="card__answer hidden">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
+            placeat aperiam inventore culpa, quo illo modi dolor molestiae
+            officiis suscipit excepturi dolore quisquam nostrum beatae.
+            Temporibus officiis unde rerum sit.
+          </p>
+          <ul class="card__tags">
+            <li><button class="no-button">#tag1</button></li>
+            <li>#tag2</li>
+            <li>#tag3</li>
+            <li>#tag4</li>
+            <li>#tag5</li>
+            <li>#tag6</li>
+            <li>#tag7</li>
+            <li>#tag8</li>
+            <li>#tag9</li>
+          </ul>
+        </article>
+        <article class="card gradient-border">
+          <label class="sr-only" for="ribbon2">bookmark this card </label>
+          <button id="ribbon2" class="ribbon no-button" data-js="ribbon">
+            <i class="fa-solid fa-bookmark fa-2x"></i>
+          </button>
+
+          <h2 class="card__title">Question</h2>
+          <p class="card__question">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore
+            minima quam totam consectetur, optio cumque est in reiciendis iste
+            quae quod aut hic magni atque dolorum illum maiores nisi repellat.
+          </p>
+          <button class="card__button button" data-js="answer-button">
+            Show Answer
+          </button>
+          <p class="card__answer hidden">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
             placeat aperiam inventore culpa, quo illo modi dolor molestiae
             officiis suscipit excepturi dolore quisquam nostrum beatae.
@@ -46,19 +81,20 @@
           </ul>
         </article>
         <article class="card gradient-border">
-          <label class="sr-only" for="button2">bookmark this card </label>
-          <button id="button2" class="ribbon no-button">
+          <label class="sr-only" for="ribbon3">bookmark this card</label>
+          <button id="ribbon3" class="ribbon no-button" data-js="ribbon">
             <i class="fa-solid fa-bookmark fa-2x"></i>
           </button>
-
           <h2 class="card__title">Question</h2>
           <p class="card__question">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore
             minima quam totam consectetur, optio cumque est in reiciendis iste
             quae quod aut hic magni atque dolorum illum maiores nisi repellat.
           </p>
-          <button class="card__button button">Show Answer</button>
-          <p class="card__answer">
+          <button class="card__button button" data-js="answer-button">
+            Show Answer
+          </button>
+          <p class="card__answer hidden">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
             placeat aperiam inventore culpa, quo illo modi dolor molestiae
             officiis suscipit excepturi dolore quisquam nostrum beatae.
@@ -72,33 +108,8 @@
           </ul>
         </article>
         <article class="card gradient-border">
-          <label class="sr-only" for="button3">bookmark this card</label>
-          <button id="button3" class="ribbon no-button">
-            <i class="fa-solid fa-bookmark fa-2x"></i>
-          </button>
-          <h2 class="card__title">Question</h2>
-          <p class="card__question">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore
-            minima quam totam consectetur, optio cumque est in reiciendis iste
-            quae quod aut hic magni atque dolorum illum maiores nisi repellat.
-          </p>
-          <button class="card__button button">Show Answer</button>
-          <p class="card__answer">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
-            placeat aperiam inventore culpa, quo illo modi dolor molestiae
-            officiis suscipit excepturi dolore quisquam nostrum beatae.
-            Temporibus officiis unde rerum sit.
-          </p>
-          <ul class="card__tags">
-            <li>#tag1</li>
-            <li>#tag2</li>
-            <li>#tag3</li>
-            <li>#tag4</li>
-          </ul>
-        </article>
-        <article class="card gradient-border">
-          <label class="sr-only" for="button4">bookmark this card</label>
-          <button id="button4" class="ribbon no-button">
+          <label class="sr-only" for="ribbon4">bookmark this card</label>
+          <button id="ribbon4" class="ribbon no-button" data-js="ribbon">
             <i class="fa-solid fa-bookmark fa-2x"></i>
           </button>
 
@@ -108,8 +119,10 @@
             minima quam totam consectetur, optio cumque est in reiciendis iste
             quae quod aut hic magni atque dolorum illum maiores nisi repellat.
           </p>
-          <button class="card__button button">Show Answer</button>
-          <p class="card__answer">
+          <button class="card__button button" data-js="answer-button">
+            Show Answer
+          </button>
+          <p class="card__answer hidden">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
             placeat aperiam inventore culpa, quo illo modi dolor molestiae
             officiis suscipit excepturi dolore quisquam nostrum beatae.

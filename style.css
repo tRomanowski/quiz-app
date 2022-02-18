@@ -8,6 +8,7 @@
 @import './styles/components/header.css';
 @import './styles/components/logout-button.css';
 @import './styles/components/no-button.css';
+@import '/styles/components/profile-card.css';
 @import './styles/components/profile-info.css';
 @import './styles/components/profile-skills.css';
 @import './styles/components/question-creator-form.css';
