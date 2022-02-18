@@ -1,18 +1,24 @@
 console.clear();
 
-const showAnswerButton = document.querySelector('.card__button');
-const cardAnswer = document.querySelector('.card__answer');
+const showAnswerButtons = document.querySelectorAll(
+  '[data-js="answer-button"]'
+);
+//const cardAnswer = document.querySelector('.card__answer');
 
-showAnswerButton.addEventListener('click', () => {
-  showAnswerButton.textContent === 'Show Answer'
-    ? (showAnswerButton.textContent = 'Hide Answer')
-    : (showAnswerButton.textContent = 'Show Answer');
+showAnswerButtons.forEach(showAnswerButton => {
+  showAnswerButton.addEventListener('click', () => {
+    showAnswerButton.textContent === 'Show Answer'
+      ? (showAnswerButton.textContent = 'Hide Answer')
+      : (showAnswerButton.textContent = 'Show Answer');
 
-  cardAnswer.classList.toggle('hidden');
+    showAnswerButton.nextSibling.nextSibling.classList.toggle('hidden');
+  });
 });
 
-const ribbon = document.querySelector('.ribbon');
+const ribbons = document.querySelectorAll('[data-js="ribbon"]');
 
-ribbon.addEventListener('click', () => {
-  ribbon.classList.toggle('ribbon--active');
+ribbons.forEach(ribbon => {
+  ribbon.addEventListener('click', () => {
+    ribbon.classList.toggle('ribbon--active');
+  });
 });
