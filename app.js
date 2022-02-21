@@ -1,24 +1,11 @@
 console.clear();
 
-const showAnswerButtons = document.querySelectorAll(
-  '[data-js="answer-button"]'
-);
-//const cardAnswer = document.querySelector('.card__answer');
+import answer from './JS/answer.js';
+import ribbon from './JS/ribbon.js';
+import nav from './JS/nav.js';
 
-showAnswerButtons.forEach(showAnswerButton => {
-  showAnswerButton.addEventListener('click', () => {
-    showAnswerButton.textContent === 'Show Answer'
-      ? (showAnswerButton.textContent = 'Hide Answer')
-      : (showAnswerButton.textContent = 'Show Answer');
+answer();
 
-    showAnswerButton.nextSibling.nextSibling.classList.toggle('hidden');
-  });
-});
+ribbon();
 
-const ribbons = document.querySelectorAll('[data-js="ribbon"]');
-
-ribbons.forEach(ribbon => {
-  ribbon.addEventListener('click', () => {
-    ribbon.classList.toggle('ribbon--active');
-  });
-});
+nav();
